@@ -1,0 +1,220 @@
+[0m21:12:47.018659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x711cfed38b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x711cfed39940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x711cfed398b0>]}
+
+
+============================== 21:12:47.046493 | d2726734-7278-4a6d-9925-ceb57ea4470f ==============================
+[0m21:12:47.046493 [info ] [MainThread]: Running with dbt=1.11.2
+[0m21:12:47.047982 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'target_path': 'None', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'write_json': 'True', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'printer_width': '80', 'use_colors': 'True', 'invocation_command': 'dbt init taxi_rides_ny', 'log_path': 'logs', 'no_print': 'None', 'introspect': 'True', 'partial_parse': 'True', 'debug': 'False', 'static_parser': 'True', 'empty': 'None', 'quiet': 'False', 'profiles_dir': '/home/seba/.dbt', 'log_format': 'default', 'use_experimental_parser': 'False', 'warn_error': 'None'}
+[0m21:12:47.555208 [info ] [MainThread]: Creating dbt configuration folder at /home/seba/.dbt
+[0m21:12:47.595712 [debug] [MainThread]: Starter project path: /mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m21:12:47.989989 [info ] [MainThread]: 
+Your new dbt project "taxi_rides_ny" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:12:47.991219 [info ] [MainThread]: Setting up your profile.
+[0m21:12:52.984286 [info ] [MainThread]: Profile taxi_rides_ny written to /home/seba/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m21:12:52.987664 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 6.044385, "process_in_blocks": "59616", "process_kernel_time": 1.066161, "process_mem_max_rss": "125248", "process_out_blocks": "8", "process_user_time": 1.761813}
+[0m21:12:52.988966 [debug] [MainThread]: Command `dbt init` succeeded at 21:12:52.988794 after 6.05 seconds
+[0m21:12:52.990377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x711cfee36330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x711cfe82ebd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x711cfe7f4d70>]}
+[0m21:12:52.991561 [debug] [MainThread]: Flushing usage events
+[0m21:12:53.858850 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:40:09.373391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0272059700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02744529c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0271c9ecf0>]}
+
+
+============================== 21:40:09.390758 | 1cd72949-8156-4712-b88d-ad9d1ebb862b ==============================
+[0m21:40:09.390758 [info ] [MainThread]: Running with dbt=1.11.2
+[0m21:40:09.392055 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'no_print': 'None', 'log_cache_events': 'False', 'debug': 'False', 'printer_width': '80', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'partial_parse': 'True', 'use_colors': 'True', 'fail_fast': 'False', 'warn_error': 'None', 'empty': 'None', 'static_parser': 'True', 'write_json': 'True', 'target_path': 'None', 'profiles_dir': '/home/seba/.dbt', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:40:09.595069 [info ] [MainThread]: dbt version: 1.11.2
+[0m21:40:09.596078 [info ] [MainThread]: python version: 3.12.3
+[0m21:40:09.596956 [info ] [MainThread]: python path: /mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/bin/python3
+[0m21:40:09.597918 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m21:40:10.297357 [info ] [MainThread]: Using profiles dir at /home/seba/.dbt
+[0m21:40:10.299006 [info ] [MainThread]: Using profiles.yml file at /home/seba/.dbt/profiles.yml
+[0m21:40:10.300423 [info ] [MainThread]: Using dbt_project.yml file at /mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/dbt_project.yml
+[0m21:40:10.321686 [info ] [MainThread]: adapter type: duckdb
+[0m21:40:10.322676 [info ] [MainThread]: adapter version: 1.10.0
+[0m21:40:10.323733 [info ] [MainThread]: Configuration:
+[0m21:40:10.324711 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:40:10.325656 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:40:10.326604 [info ] [MainThread]: Required dependencies:
+[0m21:40:10.327532 [debug] [MainThread]: Executing "git --help"
+[0m21:40:10.332737 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:40:10.334166 [debug] [MainThread]: STDERR: "b''"
+[0m21:40:10.335665 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:40:10.337084 [info ] [MainThread]: Connection:
+[0m21:40:10.338729 [info ] [MainThread]:   database: taxi_rides_ny
+[0m21:40:10.340026 [info ] [MainThread]:   schema: dev
+[0m21:40:10.341156 [info ] [MainThread]:   path: taxi_rides_ny.duckdb
+[0m21:40:10.342195 [info ] [MainThread]:   config_options: None
+[0m21:40:10.343277 [info ] [MainThread]:   extensions: ['parquet']
+[0m21:40:10.344366 [info ] [MainThread]:   settings: {'memory_limit': '4GB', 'preserve_insertion_order': False}
+[0m21:40:10.345684 [info ] [MainThread]:   external_root: .
+[0m21:40:10.346947 [info ] [MainThread]:   use_credential_provider: None
+[0m21:40:10.348284 [info ] [MainThread]:   attach: None
+[0m21:40:10.349605 [info ] [MainThread]:   filesystems: None
+[0m21:40:10.351040 [info ] [MainThread]:   remote: None
+[0m21:40:10.352323 [info ] [MainThread]:   plugins: None
+[0m21:40:10.353739 [info ] [MainThread]:   disable_transactions: False
+[0m21:40:10.359771 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m21:40:18.562094 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m21:40:21.639228 [error] [MainThread]: Encountered an error:
+
+[0m21:40:21.900994 [error] [MainThread]: Traceback (most recent call last):
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/cli/requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/cli/main.py", line 420, in debug
+    results = task.run()
+              ^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/task/debug.py", line 144, in run
+    connection_status = self.test_connection()
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/task/debug.py", line 465, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/task/debug.py", line 443, in attempt_connection
+    adapter.debug_query()
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/adapters/duckdb/impl.py", line 118, in debug_query
+    self.execute("select 1 as id")
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt_common/record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/adapters/base/impl.py", line 471, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/adapters/duckdb/connections.py", line 133, in execute
+    return super().execute(sql, auto_begin, fetch, limit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt/adapters/sql/connections.py", line 216, in execute
+    from dbt_common.clients.agate_helper import empty_table
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt_common/clients/agate_helper.py", line 77, in <module>
+    DEFAULT_TYPE_TESTER = build_type_tester(())
+                          ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/dbt_common/clients/agate_helper.py", line 64, in build_type_tester
+    Number(null_values=("null", "")),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/agate/data_types/number.py", line 48, in __init__
+    number_symbols = self.locale.number_symbols.get('latn', self.locale.number_symbols)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/core.py", line 687, in number_symbols
+    return self._data['number_symbols']
+           ^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/core.py", line 474, in _data
+    self.__data = localedata.LocaleDataDict(localedata.load(self.__data_identifier))
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/localedata.py", line 163, in load
+    data = load(parent).copy()
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/localedata.py", line 163, in load
+    data = load(parent).copy()
+           ^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/localedata.py", line 169, in load
+    data = pickle.load(fileobj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/dates.py", line 35, in <module>
+    from babel import localtime
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/localtime/__init__.py", line 41, in <module>
+    LOCALTZ = get_localzone()
+              ^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/localtime/__init__.py", line 37, in get_localzone
+    return _get_localzone()
+           ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/localtime/_unix.py", line 55, in _get_localzone
+    tzinfo = _get_tzinfo(zone_name)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/babel/localtime/_helpers.py", line 20, in _get_tzinfo
+    return pytz.timezone(tzenv)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/pytz/__init__.py", line 181, in timezone
+    if zone in all_timezones_set:  # noqa
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/pytz/lazy.py", line 154, in _lazy
+    for i in fill_iter.pop():
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/pytz/lazy.py", line 101, in _lazy
+    list.extend(self, fill_iter.pop())
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/pytz/__init__.py", line 1116, in <genexpr>
+    tz for tz in _all_timezones_unchecked if resource_exists(tz))
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/pytz/__init__.py", line 121, in resource_exists
+    open_resource(name).close()
+    ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/serog/Documents/Proyectos/data-engineering-zoomcap/04-analytics-engineering/venv/lib/python3.12/site-packages/pytz/__init__.py", line 108, in open_resource
+    return open(filename, 'rb')
+           ^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[0m21:40:21.905374 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 12.603947, "process_in_blocks": "62112", "process_kernel_time": 1.380569, "process_mem_max_rss": "131208", "process_out_blocks": "8", "process_user_time": 1.925311}
+[0m21:40:21.906816 [debug] [MainThread]: Command `dbt debug` failed at 21:40:21.906669 after 12.61 seconds
+[0m21:40:21.908065 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:40:21.909093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02744529c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f026d54f200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f027183eb40>]}
+[0m21:40:21.910066 [debug] [MainThread]: Flushing usage events
+[0m21:40:22.791623 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:45:55.968460 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 22:45:56.031706 | 5ef134fe-7522-4560-b84c-14b044867a55 ==============================
+[0m22:45:56.031706 [info ] [MainThread]: Running with dbt=1.11.2
+[0m22:45:56.031706 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\serog\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:45:56.060479 [info ] [MainThread]: dbt version: 1.11.2
+[0m22:45:56.060479 [info ] [MainThread]: python version: 3.12.10
+[0m22:45:56.060479 [info ] [MainThread]: python path: C:\Users\serog\Documents\Proyectos\data-engineering-zoomcap\04-analytics-engineering\venv\Scripts\python.exe
+[0m22:45:56.062289 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m22:45:56.173134 [info ] [MainThread]: Using profiles dir at C:\Users\serog\.dbt
+[0m22:45:56.173134 [info ] [MainThread]: Using profiles.yml file at C:\Users\serog\.dbt\profiles.yml
+[0m22:45:56.174149 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\serog\Documents\Proyectos\data-engineering-zoomcap\04-analytics-engineering\dbt_project.yml
+[0m22:45:56.176182 [info ] [MainThread]: adapter type: duckdb
+[0m22:45:56.176182 [info ] [MainThread]: adapter version: 1.10.0
+[0m22:45:56.177155 [info ] [MainThread]: Configuration:
+[0m22:45:56.177155 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:45:56.178156 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m22:45:56.178156 [info ] [MainThread]: Required dependencies:
+[0m22:45:56.179540 [debug] [MainThread]: Executing "git --help"
+[0m22:45:56.220850 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:45:56.220850 [debug] [MainThread]: STDERR: "b''"
+[0m22:45:56.220850 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:45:56.220850 [info ] [MainThread]: Connection:
+[0m22:45:56.220850 [info ] [MainThread]:   database: taxi_rides_ny
+[0m22:45:56.220850 [info ] [MainThread]:   schema: dev
+[0m22:45:56.220850 [info ] [MainThread]:   path: taxi_rides_ny.duckdb
+[0m22:45:56.220850 [info ] [MainThread]:   config_options: None
+[0m22:45:56.220850 [info ] [MainThread]:   extensions: ['parquet']
+[0m22:45:56.220850 [info ] [MainThread]:   settings: {'memory_limit': '2GB', 'preserve_insertion_order': False}
+[0m22:45:56.220850 [info ] [MainThread]:   external_root: .
+[0m22:45:56.220850 [info ] [MainThread]:   use_credential_provider: None
+[0m22:45:56.220850 [info ] [MainThread]:   attach: None
+[0m22:45:56.220850 [info ] [MainThread]:   filesystems: None
+[0m22:45:56.220850 [info ] [MainThread]:   remote: None
+[0m22:45:56.220850 [info ] [MainThread]:   plugins: None
+[0m22:45:56.220850 [info ] [MainThread]:   disable_transactions: False
+[0m22:45:56.230787 [info ] [MainThread]: Registered adapter: duckdb=1.10.0
+[0m22:45:56.526943 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m22:45:58.984572 [debug] [MainThread]: Using duckdb connection "debug"
+[0m22:45:58.984572 [debug] [MainThread]: On debug: select 1 as id
+[0m22:45:58.984572 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:46:01.066439 [debug] [MainThread]: SQL status: OK in 2.081 seconds
+[0m22:46:01.068190 [debug] [MainThread]: On debug: Close
+[0m22:46:01.069359 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:46:01.069359 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:46:01.070358 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\serog\Documents\Proyectos\data-engineering-zoomcap\04-analytics-engineering\dbt_project.yml> not found
+
+[0m22:46:01.071353 [debug] [MainThread]: Command `dbt debug` failed at 22:46:01.071353 after 5.15 seconds
+[0m22:46:01.072352 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:46:01.072352 [debug] [MainThread]: Flushing usage events

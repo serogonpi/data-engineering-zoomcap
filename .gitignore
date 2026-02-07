@@ -1,17 +1,55 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.pyc
+*.pyo
+*.so
+.Python
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+*.egg
+venv/
+.venv/
+env/
+ENV/
 
-# Virtual environments
-.venv
+# dbt
+target/
+dbt_packages/
+logs/
+dbt_modules/
+*.tmp
 
-*/test/*
-*/pipeline/*
-/.vscode/*
+# Data files
+data/
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+*.csv
+*.parquet
+*.xlsx
+*.db
+*.sqlite
 
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
+# Testing
+test/
+tests/__pycache__/
+.pytest_cache/
+.coverage
 
+# Pipeline (si no quieres versionarlo)
+pipeline/
+
+# OS
+Thumbs.db
+.DS_Store
